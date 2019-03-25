@@ -5,14 +5,13 @@ const AddDropMenu = ({ DropDownMenuItems }) => {
 	return (
 		<div>
 			{
-				DropDownMenuItems.map((links, i) => {
-				return(<MainMenu
-					key={i}
-					id={DropDownMenuItems[i].id}
-					name={DropDownMenuItems[i].name}
-					href={DropDownMenuItems[i].href} />
-				);
-			})
+				DropDownMenuItems.map((items, i) => {
+					return(<MainMenu 
+						id={items[i].id}
+						name={items[i].name}
+						href={items[i].href} />
+						);
+					})
 			}
 		</div>
 	);

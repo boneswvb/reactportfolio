@@ -1,5 +1,5 @@
 import React from 'react';
-import DropDownContent from './DropDownContent';
+
 
 const MainMenu = ({ DropDownContent }) => {
 	return(

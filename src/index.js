@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MainMenu from './js/MainMenu';
+import MainMenu from './MainMenu';
 import * as serviceWorker from './serviceWorker';
-import DropDownMenuItems from './js/DropDownMenuItems';
+import DropDownContent from './DropDownContent';
 
-ReactDOM.render(<MainMenu DropDownMenuItems={DropDownMenuItems} />, document.getElementById('root'));
+ReactDOM.render(<MainMenu DropDownContent={ DropDownContent } />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

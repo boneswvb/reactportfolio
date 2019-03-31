@@ -1,5 +1,5 @@
 import React from 'react';
-import DropDownContent from './DropDownContent';
+
 
 const MainMenu = ({ DropDownContent }) => {
 	return(
@@ -11,7 +11,7 @@ const MainMenu = ({ DropDownContent }) => {
         <div class="dropdown">
           <button class="navbutton" id="navbutton"><a href="#portfolio">Projects</a></button>
             <div class="dropdown-content">
-            	{ DropDownContent }
+            	{`${ DropDownContent }`}
         		</div>  
           </div>  
    </div>     

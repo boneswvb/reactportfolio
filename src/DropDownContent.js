@@ -1,8 +1,11 @@
 import React from 'react';
+import './DropDownContent.css';
 
 const DropDownContent = ({ id, name, href }) => {
 	return(
-					<a id={`pj${id}`} href={`${ href }`}>{`${ name }`}</a>
+		<div>
+			<button><a className='DropDownContent' id={`pj${id}`} href={`${ href }`}>{`${ name }`}</a></button>
+			</div>
 	);
 }
 

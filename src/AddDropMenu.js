@@ -7,6 +7,7 @@ const AddDropMenu = ({ DropDownMenuItems }) => {
 			{
 				DropDownMenuItems.map((items, i) => {
 					return(<DropDownContent 
+						key={i}
 						id={DropDownMenuItems[i].id}
 						name={DropDownMenuItems[i].name}
 						href={DropDownMenuItems[i].href} />

@@ -1,0 +1,17 @@
+.menuOne {
+	display: flex;
+	justify-content: flex-start;
+	margin: 15px;
+}
+
+.aboutMe {
+	margin: 0 5px 0 5px;
+}
+
+.certificates {
+	margin: 0 5px 0 5px;
+}
+
+.contactMe {
+	margin: 0 10px 0 5px;
+}

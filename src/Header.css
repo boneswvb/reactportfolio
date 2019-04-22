@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+
+.mainHeading {
+	font-size: 38px;
+	color: #02f;
+}
+
+.photo {
+	width: auto;
+	height: 200px;
+}
+
+.box {
+	border: #0ff 2px solid;
+	border-radius: 15px;
+}
+
+.email:hover {
+	transform: scale(1.1);
+}
+
+.email {
+		text-decoration: underline;
+}

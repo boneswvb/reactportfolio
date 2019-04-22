@@ -1,13 +1,16 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
 		return(
-			<div>
-				<h1>Wim von Benecke. (Wim)</h1>
-				<img alt="Wim von Benecke" src="./pictures/Wim%20new.jpg" />
-				<h3>Contact me</h3>
-				<p>Cell phone: 0827145656</p>
-				<p><a href="mailto:info@lesawi.co.za">Email: info@lesawi.co.za</a></p>
+			<div className='header'>
+			<img className='photo box' alt="Wim von Benecke" src="./pictures/Wim%20new.jpg" />
+				<h1 className="mainHeading">Wim von Benecke. (Wim)</h1>				
+				<div className='contact'>
+					<h3>Contact me</h3>
+					<p>Cell phone: 0827145656</p>
+					<p className='email'><a href="mailto:info@lesawi.co.za">Email: info@lesawi.co.za</a></p>
+				</div>
 			</div>
 		);
 	}

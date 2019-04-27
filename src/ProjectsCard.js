@@ -1,13 +1,17 @@
 import React from 'react';
+import './ProjectsCard.css';
 
-const ProjectsCard = () => {
+const ProjectsCard = ({ id, projectNumber, projectName, image }) => {
 	return(
-			<div className='tc bg-light-blue dib br3 pa3 ma3 grow w-50 shadow-5' >
-				<h2>Project Number 1 - Project Name 1</h2>
-				<img alt='Picuter of a calculator' src='pictures/calculatorJan19.JPG' />
-				<h3>Short project Description 1</h3>
-		</div>
-	);
-}
+			<div className='tc projectsBox'>
+				<div>
+					<h2 className='tc f6'> Project number {`${ projectNumber }`}</h2>
+					<h2 className='tc f4'> {`${projectName}`} </h2>
+					<img alt='Picuter of a calculator' src={`${image}`} />
+					<h3>Short project Description 1</h3>
+				</div>
+			</div>
+		);
+	};
 
 export default ProjectsCard;

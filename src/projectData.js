@@ -1,8 +1,6 @@
-import React from 'react';
-
 export const projectData = [
 {
-	id:1,
+	id: 1,
 	projectNumber: 1,
 	projectName: 'Tribute to Gen. De La Rey',
 	image: 'pictures/tributeJan19.JPG',
@@ -114,7 +112,7 @@ export const projectData = [
 	projectNumber: 13,
 	projectName: 'React Project - Robo-Friends',
 	image: 'pictures/roboFriendsApr19.jpg',
-	hrefLink:'https://boneswvb.github.io/robo-friends-two/'
+	hrefLink:'https://boneswvb.github.io/robo-friends-two/',
 	alt:'Photo of Robot contact details',
 	target: 'blank'
 },

@@ -5,6 +5,10 @@ import WrittenContent from './WrittenContent';
 import AddProjectsData from './AddProjectsData';
 import { projectData } from './projectData';
 import Scroll from './Scroll';
+import { certificationContent } from './certificationContent';
+import AddCertificationContent from './AddCertificationContent';
+import Form from './Form';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -16,9 +20,15 @@ class App extends Component {
 				<WrittenContent />
 				<Menu />
 				<Scroll>
+					<AddCertificationContent certificationContent={certificationContent} />
+				</Scroll>
+				<Menu />
+				<h1>Projects</h1>
+				<Scroll>
 					<AddProjectsData projectData={ projectData } />
 				</Scroll>
-				
+				<Form />
+				<Footer />
 			</div>
 		);
 	}

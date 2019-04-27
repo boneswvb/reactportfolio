@@ -6,7 +6,8 @@ export const projectData = [
 	image: 'pictures/tributeJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/OOXPBo',
 	alt:'Photo of Genral De Le Ray',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:2,
@@ -15,7 +16,8 @@ export const projectData = [
 	image: 'pictures/rediovisionWebOldJan19.jpg',
 	hrefLink:'http://www.radiovision.co.za',
 	alt:'Photo of Radio Vision web site',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:3,
@@ -24,7 +26,8 @@ export const projectData = [
 	image: 'pictures/randomQuoteGeneratorJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/KymeoR',
 	alt:'Photo of quote generator',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:4,
@@ -33,7 +36,8 @@ export const projectData = [
 	image: 'pictures/wikipediaViewerJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/vWWdeV/',
 	alt:'Photo of Wikipedia Viewer',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:5,
@@ -42,7 +46,8 @@ export const projectData = [
 	image: 'pictures/twitchStreamerJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/zPWXLM/',
 	alt:'Photo of Twitch Streamers',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:6,
@@ -51,7 +56,8 @@ export const projectData = [
 	image: 'pictures/calculatorJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/QOxMKy/',
 	alt:'Photo of Calculator',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:7,
@@ -60,7 +66,8 @@ export const projectData = [
 	image: 'pictures/pomodorosClockJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/NwBEPy/',
 	alt:'Photo of Pomodoro Clock',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:8,
@@ -69,7 +76,8 @@ export const projectData = [
 	image: 'pictures/ticTacToeGameJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/JOBebd/',
 	alt:'Photo of Tic Tac Toe Game',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:9,
@@ -78,7 +86,8 @@ export const projectData = [
 	image: 'pictures/simonGameJan19.JPG',
 	hrefLink:'https://codepen.io/Bones1/full/eejbJZ/',
 	alt:'Photo of Simon Game',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:10,
@@ -87,7 +96,8 @@ export const projectData = [
 	image: 'pictures/toDoListApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/to-do-list/',
 	alt:'Photo of To Do List',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:11,
@@ -96,7 +106,8 @@ export const projectData = [
 	image: 'pictures/landingPageApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/startUpPage/',
 	alt:'Photo of Landing page',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:12,
@@ -105,7 +116,8 @@ export const projectData = [
 	image: 'pictures/backgroundGeneratorApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/backgroundGenerator/',
 	alt:'Photo of Background Generator',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:13,
@@ -114,7 +126,8 @@ export const projectData = [
 	image: 'pictures/roboFriendsApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/robo-friends-two/',
 	alt:'Photo of Robot contact details',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:14,
@@ -123,7 +136,8 @@ export const projectData = [
 	image: 'pictures/layoutMasterApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/projectPrittify/',
 	alt:'Phot of a web site',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon',
 },
 {
 	id:15,
@@ -132,7 +146,8 @@ export const projectData = [
 	image: 'pictures/serveyFormApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/surveyForm/',
 	alt:'Photo of Survey Form',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:16,
@@ -141,7 +156,8 @@ export const projectData = [
 	image: 'pictures/mathTesterApr19.jpg',
 	hrefLink:'https://boneswvb.github.io/mathQuize/',
 	alt:'Photo of Math Quize program',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 },
 {
 	id:17,
@@ -150,6 +166,7 @@ export const projectData = [
 	image: 'pictures/myGistsApr19.jpg',
 	hrefLink:'https://gist.github.com/boneswvb',
 	alt:'Photo of github gists for Wim von Benecke',
-	target: 'blank'
+	target: 'blank',
+	comment: 'To follow soon'
 }
 ];

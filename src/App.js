@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Menu from './Menu';
 import WrittenContent from './WrittenContent';
-import ProjectsCard from './ProjectsCard';
+import AddProjectsData from './AddProjectsData';
+import { projectData } from './projectData';
+import Scroll from './Scroll';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +14,11 @@ class App extends Component {
 				<Header />
 				<Menu />
 				<WrittenContent />
-				<ProjectsCard />
+				<Menu />
+				<Scroll>
+					<AddProjectsData projectData={ projectData } />
+				</Scroll>
+				
 			</div>
 		);
 	}

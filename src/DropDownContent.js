@@ -7,7 +7,6 @@ const DropDownContent = ({ id, name, href }) => {
 			<button>
 				<a 
 				className='DropDownContent'
-				id={`pj${id}`} 
 				href={`${ href }`}>
 				{`${ name }`}
 				</a>

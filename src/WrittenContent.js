@@ -29,11 +29,7 @@ const WrittenContent = () => {
           <section className="training">
               <h2 className="training1" id="training1">Certificates of completed training</h2>
           </section>
-          <section className="certificates">
-              <div id="certificates">
-                <a className="certificates1" href="training.html">Click here to see all certificates</a>
-  	          </div>
-          </section>
+          
       </article>
     </div>
 	);

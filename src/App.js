@@ -20,12 +20,12 @@ class App extends Component {
 				<WrittenContent />
 				<Menu />
 				<Scroll>
-					<AddCertificationContent certificationContent={certificationContent} />
+				<AddCertificationContent certificationContent={certificationContent} />
 				</Scroll>
 				<Menu />
 				<h1>Projects</h1>
 				<Scroll>
-					<AddProjectsData projectData={ projectData } />
+				<AddProjectsData projectData={ projectData } />
 				</Scroll>
 				<Form />
 				<Footer />

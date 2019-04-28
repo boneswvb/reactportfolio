@@ -4,9 +4,10 @@ import './Form.css'
 const Form = () => {
 	return(
 		<div className="form" id="form">
+      <div className='form1'>
         <form nameName="contactForm" method="POST" action="http://free.allforms.mailjol.net/u/a09c6e50.php" autocomplete="on">
 
-          <h1 className=" tc formh1" id="serviceCall">Let me know what you think.</h1>
+          <h1 className="tc" id="serviceCall">Let me know what you think.</h1>
 
 
           <h2 className="formh2">Leave a message if you want me to contact you.</h2>
@@ -58,6 +59,7 @@ const Form = () => {
               <li><input type="submit" class="submit" id="submit" name="submit" value="Submit" /></li>
             </ol>
         </form>
+      </div>
     </div>
 	);
 }

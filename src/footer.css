@@ -1,0 +1,38 @@
+.contact h1 {
+	text-align: center;
+	color: blue;
+}
+
+.contact p {
+	text-align: center;
+}
+.quickLinks {
+	float: left;
+	width: 50%;
+}
+
+.quickLinks li {
+  list-style-type: none;
+  text-align: center;
+}
+.quickLinks h3 {
+  text-align: center;
+}
+
+.web {
+	float: right;
+	width: 50%;
+}
+
+.web li {
+  list-style-type: none;
+  text-align: center;
+}
+.web h3 {
+  text-align: center;
+}
+
+.footera {
+  text-align: center;
+  background-color: chartreuse;
+}

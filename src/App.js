@@ -24,9 +24,7 @@ class App extends Component {
 				</Scroll>
 				<Menu />
 				<h1>Projects</h1>
-				<Scroll>
 				<AddProjectsData projectData={ projectData } />
-				</Scroll>
 				<Form />
 				<Footer />
 			</div>

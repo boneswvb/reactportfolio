@@ -7,11 +7,11 @@ const Footer = () => {
 			<div className="contact" id="contact">
 	      <h1>Contact details</h1>
 	      <p className="contact1" id="contact1">LeSaWi Web Creation
+	        <br /> Wim von Benecke
 	        <br /> 11A Mopanie Street
 	        <br /> White River, 1240
-	        <br /> (082)-714-5656
-	        <br /> Wim von Benecke
-	        <br /><a href="mailto:boneswvb@gmail.com">Email me for more details: boneswvb@gmail.com</a>
+	        <br /> +27 (0)-099 2811
+	        <br /><a href="mailto:info@lesawi.co.za">Email me for more details: info@lesawi.co.za</a>
 	      </p>
 	    </div>
 	    <div className="quickLinks" id="quickLinks">

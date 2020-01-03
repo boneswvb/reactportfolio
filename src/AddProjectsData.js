@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard';
 
 const AddProjectsData = ({ projectData }) => {
 	return (
-		<div>
+		<div className="tc">
 			{
 				projectData.map((items, i) => {
 					return(<ProjectsCard 

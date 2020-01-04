@@ -6,8 +6,7 @@ const Footer = () => {
 		<div>
 			<div className="contact" id="contact">
 	      <h1>Contact details</h1>
-	      <p className="contact1" id="contact1">LeSaWi Web Creation
-	        <br /> Wim von Benecke
+	      <p>Wim von Benecke
 	        <br /> 11A Mopanie Street
 	        <br /> White River, 1240
 	        <br /> +27 (0)-099 2811
@@ -48,8 +47,8 @@ const Footer = () => {
 	      </ul>
 	    </div>
 
-	    <div className="footera" id="footer">
-	      <p className="creator" id="creator">All Rights Reserved © W A von Benecke.</p>
+	    <div className="footera">
+	      <p className="creator">All Rights Reserved © W A von Benecke.</p>
 	      <button className="navbutton"><a href="#portfolioName">To top</a></button>
 	    </div>
     </div>

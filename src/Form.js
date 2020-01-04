@@ -1,68 +1,125 @@
 import React from 'react';
 import './Form.css'
 
-const Form = () => {
+const Form = (props) => {
 	return(
-		<div className="form" id="form">
-      <div className='form1'>
-        <form nameName="contactForm" method="POST" action="http://free.allforms.mailjol.net/u/a09c6e50.php" autocomplete="on">
+<div className="form" id="form">
+  <div>
+    <form className="tc contactForm" method="POST" action="http://free.allforms.mailjol.net/u/a09c6e50.php" autocomplete="on">
 
-          <h1 className="tc" id="serviceCall">Let me know what you think.</h1>
+      <h1 className="tc">Let me know what you think.</h1>
+      <h4>Leave a message if you want me to contact you.</h4>
+      <h4>* = Required field</h4>
 
+      <label>Name*:</label>
+        <input 
+            type="text" 
+            name="name" 
+            value={ props.data.name } 
+            placeholder="Name and Surname" 
+            onChange={ props.handleChange } 
+            required  
+        />
+        <br />
 
-          <h2 className="formh2">Leave a message if you want me to contact you.</h2>
+      <label>E-mail*:</label>
+        <input 
+            type="email" 
+            name="email" 
+            value={ props.data.email } 
+            placeholder="email@email.com" 
+            onChange={ props.handleChange } 
+            required  
+        />
+        <br />
 
-          <h4 className="formh4">* = Required field</h4>
+      <label>Contact Number*:</label>
+        <input 
+          type="text" 
+          name="contactNumber" 
+          value={ props.data.contactNumber } 
+          placeholder="+XX (0) XX XXX XXXX" 
+          onChange={ props.handleChange } 
+          required  
+      />
+        <br />
 
-            <ol>
-              <li><label for="name">Name*:</label>
-                <input type="text" name="name" placeholder="First Name And Surname" id="name" required /></li>
+      <label>Your country of origin:</label>
+        <input 
+          type="text" 
+          name="country" 
+          value={ props.data.country }
+          placeholder="South Africa" 
+          onChange={ props.handleChange } 
+          required 
+        />
+        <br /><br /><br />
 
-              <li><label for="email">E-mail*:</label>
-                <input type="text" name="email" placeholder="Example@example.co.za" id="email" required /></li>
+      <label>What do you think of my portfolio?*:</label>
+        <select
+          value={ props.data.qualityOfPortfolio }
+          onChange={ props.handleChange }
+          name="qualityOfPortfolio" required>
+            <option>--Select One--</option>
+            <option value="VeryGood">Very good</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="NotGood">Not good</option>
+            <option value="See comments below">See comments below</option>
+      </select>
+      <br /><br />
+      <label>
+        <input 
+          type="radio" 
+          name="watchProgress"
+          value="yes"
+          checked={ props.data.watchProgress === "yes" }
+          onChange={ props.handleChange }
+      />Yes I'm watching your progress.
+      </label>
+        <br />
+      <label>
+        <input 
+          type="radio" 
+          name="watchProgress"
+          value="no"
+          checked={ props.data.watchProgress === "no" }
+          onChange={ props.handleChange }
+      />No I'm not watching your progress.
+      </label>
+        <br /><br />
 
-              <li><label for="contactNumber">Contact Number*:</label>
-                <input type="text" name="Contact Number" placeholder="Cell Phone is Prefered" id="contactNumber" required /></li>
+      <p>Comments:</p>
+        <textarea 
+          name="comments" 
+          rows="10"   
+          cols="40" 
+          placeholder="Please leave your comments here." 
+          onChange={ props.handleChange }
+          value={ props.data.comments }
+          >
+        </textarea>
+          <br />
 
-              <li><label for="country">Your country of origin:</label>
-                <input type="text" name="country" placeholder="South Africa / Mpumalanga " id="country" /></li>
+      <label>How did you find this page?</label>
+        <select  
+          value={ props.data.HowDidYouHearAboutMe }
+          onChange={ props.handleChange }
+          name="HowDidYouHearAboutMe">
+          <option>--Select One--</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Word of mouth">Word of mouth</option>
+          <option value="Internet">Internet</option>
+          <option value="Other">Other</option>
+      </select>
+        <br />
 
-                <br /><br />
+      <input type="submit" class="submit" id="submit" name="submit" value="Submit" />
 
-              <li><label for="SructuralFeedback">What do you think of my portfolio?*:</label>
-                <select name="Select feedback" required>
-			            <option value="Very good" selected>Very good</option>
-			            <option value="Good">Good</option>
-			            <option value="Average">Average</option>
-			            <option value="Not good">Not good</option>
-			            <option value="See comments below">See comments below</option>
-    						 </select></li>
-
-              	  <br />
-                
-              <li><label for="watchProgressYes">I'm watching your progress Yes:</label>
-                <input type="radio" name="watchProgressYes" id="watchProgressYes" /></li>
-              <li><label for="watchingProgressNo">I'm watching your progress No:</label>
-                <input type="radio" name="watchingProgressNo" id="watchingProgressNo" /></li>
-              <br />
-              <li><label for="comment">Comment*:</label>
-                <textarea name="comment" rows="10" cols="40" placeholder="Please leave your comments here." id="comment" required></textarea></li>
-
-              <li><label for="hearAboutUs">How did you find this page?</label>
-                <select name="How did you hear about us" id="hearAboutUs" required>
-						      <option value="Facebook">Facebook</option>
-						      <option value="Word of mouth">Word of mouth</option>
-						      <option value="Internet">Internet</option>
-						      <option value="Other">Other</option>
-			   			 </select></li>
-
-              <li><input type="submit" class="submit" id="submit" name="submit" value="Submit" /></li>
-            </ol>
-        </form>
-      </div>
-    </div>
-	);
+    </form>
+  </div>
+</div>
+);
 }
 
 export default Form;
-

@@ -4,9 +4,9 @@ import ClassDropMenu from './ClassDropMenu';
 const Menu = () => {
 	return(
 		<div className='menuOne'>
-						<button className="aboutMe">About me</button>
-						<button className="certificates">Cerificates</button>
-						<button className="contactMe">Contact Me</button>
+						<button className="aboutMe"><a href="#about">About me</a></button>
+						<button className="certificates"><a href="#certificates">Certificates</a></button>
+						<button className="contactMe"><a href="#contact">Contact Me</a></button>
 						<ClassDropMenu />
 					</div>
 	);

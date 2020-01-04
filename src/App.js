@@ -18,6 +18,7 @@ class App extends Component {
 				<Menu />
 				<h1>Projects</h1>
 				<AddProjectsData projectData={ projectData } />
+				<Menu />
 				<ClassForm />
 				<Footer />
 			</div>

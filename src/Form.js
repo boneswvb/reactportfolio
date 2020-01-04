@@ -5,7 +5,7 @@ const Form = (props) => {
 	return(
 <div className="form" id="form">
   <div>
-    <form className="tc contactForm" method="POST" action="http://free.allforms.mailjol.net/u/a09c6e50.php" autocomplete="on">
+    <form className="tc contactForm" method="POST" action="http://free.allforms.mailjol.net/u/a09c6e50.php" autoComplete="on">
 
       <h1 className="tc">Let me know what you think.</h1>
       <h4>Leave a message if you want me to contact you.</h4>
@@ -107,14 +107,15 @@ const Form = (props) => {
           onChange={ props.handleChange }
           name="HowDidYouHearAboutMe">
           <option>--Select One--</option>
-          <option value="Facebook">Facebook</option>
-          <option value="Word of mouth">Word of mouth</option>
+          <option value="EmailFromYou">Email From You</option>
+          <option value="WordOfMouth">Word Of Mouth</option>
           <option value="Internet">Internet</option>
+          <option value="Facebook">Facebook</option>
           <option value="Other">Other</option>
       </select>
         <br />
 
-      <input type="submit" class="submit" id="submit" name="submit" value="Submit" />
+      <input type="submit" className="submit" id="submit" name="submit" value="Submit" />
 
     </form>
   </div>

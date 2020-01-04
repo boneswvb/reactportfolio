@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
 		return(
-			<div className='header'>
+			<div className='header' id="portfolio">
 			<img className='photo box' alt="Wim von Benecke" src="./pictures/Wim%20new.jpg" />
 				<h1 className="mainHeading">Wilhelm A von Benecke. (Wim)</h1>				
 				<div className='contact'>

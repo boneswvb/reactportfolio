@@ -9,8 +9,10 @@ const Footer = () => {
 	      <p>Wim von Benecke
 	        <br /> 11A Mopanie Street
 	        <br /> White River, 1240
-	        <br /> +27 (0)-099 2811
-	        <br /><a href="mailto:info@lesawi.co.za">Email me for more details: info@lesawi.co.za</a>
+	        <br /> +27 (0) 71 099 2811
+	        <br /> boneswvb@gmail.com 
+	        <br /> info@lesawi.co.za 
+	        <br /><a href="mailto:info@lesawi.co.za">Email me for more details.</a>
 	      </p>
 	    </div>
 	    <div className="quickLinks" id="quickLinks">

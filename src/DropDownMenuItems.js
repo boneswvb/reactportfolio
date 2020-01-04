@@ -83,6 +83,36 @@ const DropDownMenuItems = [
     id: 17,
     name: 'JavaScript Training',
     href: '#pj17',
+  },
+    {
+    id: 18,
+    name: 'Place Holder',
+    href: '#pj17',
+  },
+    {
+    id: 19,
+    name: 'Place Holder',
+    href: '#pj17',
+  },
+    {
+    id: 20,
+    name: 'Place Holder',
+    href: '#pj17',
+  },
+    {
+    id: 21,
+    name: 'Place Holder',
+    href: '#pj17',
+  },
+    {
+    id: 22,
+    name: 'Place Holder',
+    href: '#pj17',
+  },
+    {
+    id: 23,
+    name: 'Place Holder',
+    href: '#pj17',
   }
 ];
 export default DropDownMenuItems;

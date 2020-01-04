@@ -12,7 +12,7 @@ export const projectData = [
 {
 	id:2,
 	projectNumber: 2,
-	projectName: 'Radio Vision',
+	projectName: 'Radio Vision 3.0.1',
 	image: 'pictures/rediovisionWebOldJan19.jpg',
 	hrefLink:'http://www.radiovision.co.za',
 	alt:'Photo of Radio Vision web site',

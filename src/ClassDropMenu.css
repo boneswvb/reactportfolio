@@ -10,12 +10,12 @@
     position: absolute;
     min-width: 200px;
     z-index: 1;
+    text-decoration: none;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-/*    color: black;*/
-    
+/*    color: black;*/     
     border-radius: 10px;
     padding: 5px 10px;
     text-decoration: none;
@@ -31,3 +31,4 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+

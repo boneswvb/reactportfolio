@@ -86,33 +86,33 @@ const DropDownMenuItems = [
   },
     {
     id: 18,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'React Form',
+    href: '#pj18',
   },
     {
     id: 19,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'Meme Generator',
+    href: '#pj19',
   },
     {
     id: 20,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'Product List',
+    href: '#pj20',
   },
     {
     id: 21,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'Name Cards',
+    href: '#pj21',
   },
     {
     id: 22,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'Event Handlers exercise',
+    href: '#pj22',
   },
     {
     id: 23,
-    name: 'Place Holder',
-    href: '#pj17',
+    name: 'Advance React Training project/s',
+    href: '#pj23',
   }
 ];
 export default DropDownMenuItems;

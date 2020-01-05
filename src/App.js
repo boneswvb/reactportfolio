@@ -6,6 +6,7 @@ import AddProjectsData from './AddProjectsData';
 import { projectData } from './projectData';
 import ClassForm from './ClassForm';
 import Footer from './Footer';
+import Scroll from './Scroll';
 import './App.css';
 
 class App extends Component {
@@ -17,7 +18,9 @@ class App extends Component {
 				<WrittenContent />
 				<Menu />
 				<h1>Projects</h1>
+				<Scroll>
 				<AddProjectsData projectData={ projectData } />
+				</Scroll>
 				<Menu />
 				<ClassForm />
 				<Footer />

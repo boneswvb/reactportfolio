@@ -3,10 +3,12 @@ import React from 'react';
 const Scroll = (props) => {
 	const styles = { 
 		overflowY: 'scroll', 
-		height: '650px', 
+		height: '600px', 
 		border: '2px solid #0ff',
 		margin: 'auto', 
-		width: '81%'
+		width: '85%',
+		borderTopLeftRadius: '15px',
+		borderBottomLeftRadius: '15px'
 }
 
 	return (
